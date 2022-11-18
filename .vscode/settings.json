@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "trailing",
+  "editor.rulers": [130],
+  "cSpell.words": [],
+  "liveServer.settings.port": 5501,
+  "prettier.printWidth": 130
+}
