@@ -1,6 +1,6 @@
 // import { differenceInDays, format, parse, subDays } from 'date-fns';
 
-import { differenceInDays, differenceInMilliseconds, differenceInSeconds, format, parse } from "date-fns";
+import { differenceInDays, differenceInMilliseconds, differenceInSeconds, format, parse, subDays } from "date-fns";
 
 // const d1 = new Date('2023-01-20');
 // const d2 = new Date('2023-01-15');
@@ -28,6 +28,8 @@ import { differenceInDays, differenceInMilliseconds, differenceInSeconds, format
 // console.log(d <  24 * 60 * 60 * 1000);
 
 
-const d = new Date('2023-01-31T23:40:49.000Z')
+// const d = new Date('2023-02-12T20:42:48.000Z')
 
-console.log(format(d, 'yyyy-MM-dd'));
+// console.log(format(d, 'yyyy-MM-dd HH:mm:ss'));
+
+console.log(format(subDays(new Date('2023-02-21'), 7), 'yyyy-MM-dd'));

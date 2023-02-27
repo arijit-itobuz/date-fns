@@ -1,6 +1,7 @@
+import { format } from "date-fns"
 
 
-const str = 'hello'
+const date = new Date('2023-02-14T00:38:30.000Z')
 
-const res = str.match(/^([^\s%@]+)(\w+)([^\s%@]+)$/g)
-console.log(res);
+
+console.log(format(date, 'yyyy-MM-dd HH:mm:ss'));
